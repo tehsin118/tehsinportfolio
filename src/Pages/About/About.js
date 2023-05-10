@@ -31,7 +31,10 @@ const About = () => {
                 About Me
               </h2>
               <div className="grid grid-cols-12 md:gap-10 pt-4 md:pt-[40px] items-center">
-                <div className="col-span-12 md:col-span-4">
+                <div
+                  className="col-span-12 md:col-span-4"
+                  style={{ height: "100%" }}
+                >
                   {/* personal images for about page  */}
                   <img
                     className="w-full md:w-[330px] md:h-[400px] object-cover overflow-hidden rounded-[35px] mb-3 md:mb-0"
@@ -46,15 +49,34 @@ const About = () => {
                       Who am i?
                     </h3>
                     <p className="text-gray-lite  dark:text-color-910 leading-7">
-                      I'm Creative Director and UI/UX Designer from Sydney,
-                      Australia, working in web development and print media. I
-                      enjoy turning complex problems into simple, beautiful and
-                      intuitive designs.
+                      I am Muhammad Tehsin graduated from ARID University
+                      Rawalpindi and am now working with an efficient team of
+                      Octaloop Technologies developers, I take pride in my work
+                      and was recognized as Employee of the Month for my
+                      exceptional contributions to the team.
                     </p>
                     <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
-                      My aim is to bring across your message and identity in the
-                      most creative way. I created web design for many famous
-                      brand companies.
+                      I focus on designing and developing websites that look
+                      great and work well. I am skilled in a range of
+                      programming languages and platforms, including HTML, CSS,
+                      Bootstrap, JavaScript, ReactJS, and WordPress. I have
+                      worked on websites for different industries, such as
+                      Business management, e-commerce, and NFT Marketplaces.
+                    </p>
+                    <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
+                      I enjoy working with other web developers and designers to
+                      make websites that match the client's brand and business
+                      objectives. I am committed to keeping up with the latest
+                      industry trends and best practices, and I attend
+                      professional web development courses to improve my skills.
+                    </p>
+                    <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
+                      My goal is to create websites that are both visually
+                      appealing and easy to use. I take pride in exceeding
+                      client expectations and delivering projects on time. If
+                      you are looking for a web developer with skills and
+                      experience, please feel free to get in touch with me.
+                      #Lets Connect
                     </p>
                   </div>
 
