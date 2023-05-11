@@ -1,5 +1,5 @@
 import React from "react";
-import userImage from "../../assets/images/about/avatar2.jpg";
+import userImage from "../../assets/images/about/about2.jpg";
 import downloadIcon from "../../assets/images/download.png";
 import cvFile from "../../assets/images/cv.webp";
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";

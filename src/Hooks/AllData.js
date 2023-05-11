@@ -10,6 +10,9 @@ import work7 from "../assets/images/work_images/7.png";
 import work8 from "../assets/images/work_images/8.png";
 import work9 from "../assets/images/work_images/9.png";
 import work10 from "../assets/images/work_images/10.png";
+import work11 from "../assets/images/work_images/11.png";
+import work12 from "../assets/images/work_images/12.png";
+import work13 from "../assets/images/work_images/13.webp";
 // works small images
 import workSmall1 from "../assets/images/work_images/small/supervetMarket.png";
 import workSmall2 from "../assets/images/work_images/small/supervetSite.webp";
@@ -21,6 +24,9 @@ import workSmall7 from "../assets/images/work_images/small/7.png";
 import workSmall8 from "../assets/images/work_images/small/8.png";
 import workSmall9 from "../assets/images/work_images/small/9.png";
 import workSmall10 from "../assets/images/work_images/small/10.png";
+import workSmall11 from "../assets/images/work_images/small/11.png";
+import workSmall12 from "../assets/images/work_images/small/12.png";
+import workSmall13 from "../assets/images/work_images/small/13.webp";
 // blog post images
 import blog6 from "../assets/images/blog_images/6.jpg";
 import blog4 from "../assets/images/blog_images/4.jpg";
@@ -139,6 +145,19 @@ const AllData = () => {
 
   // Elements for protfilo section
   const workItems = [
+    {
+      id: "13",
+      tag: "Web Design",
+      title: "Trekverse",
+      img: work13,
+      imgSmall: workSmall13,
+      bg: "#FFF0F0",
+      client: "Trekverse",
+      langages: "HTML CSS SASS, Reactjs",
+      link: "https://trekverse-bice.vercel.app/",
+      linkText: "trekverse.com",
+      description: "",
+    },
     // 1
     {
       id: "1",
@@ -165,7 +184,7 @@ const AllData = () => {
       client: "Supervet",
       langages: "HTML SASS React JS",
       link: "https://supervet-v2.vercel.app/",
-      linkText: "Supervet V2",
+      linkText: "Supervet-v2.com",
       description:
         "Welcome to the world of the Super Vet where adventure, heroism, and animal rescue collide in a quest to save the innocent creatures of the world. Super Vet is a 3D action-adventure, AAA grade level animal rescue NFT GameFi along with the perks of the first-ever Read To Earn comic series.",
     },
@@ -180,7 +199,7 @@ const AllData = () => {
       client: "Multi-art",
       langages: "HTML CSS SASS React Js",
       link: "https://multia-art.vercel.app/",
-      linkText: "multi-art",
+      linkText: "multi-art.com",
       description:
         "Welcome to the multi-art NFT marketplace! This platform offers a seamless experience for buyers and sellers of NFTs. Artists can register and create NFTs to sell, while buyers can browse and bid on a diverse range of NFTs, from digital art to collectibles. The user-friendly interface makes it easy to upload artwork and set prices, while the secure and reliable platform ensures a smooth transaction process. Join the community of artists and collectors today and explore the exciting world of NFTs on this marketplace.",
     },
@@ -195,7 +214,7 @@ const AllData = () => {
       client: "Time Village",
       langages: "HTML SASS React Js",
       link: "https://time-village.vercel.app/",
-      linkText: "time.village",
+      linkText: "time-village.com",
       description:
         "Time Village is an innovative Ethereum-powered social media application that redefines the way people connect, communicate, and engage with online communities without being concerned about security breaches and privacy violations.",
     },
@@ -272,10 +291,10 @@ const AllData = () => {
       description:
         "Blocknotes is a tool for innovators who want to harness the power of Web3 in the music industry. Users can trade audio files, such as instrumentals and songs, as NFTs. Customizable profiles allow creators to showcase their talent.",
     },
-    // 9
+    // 10
     {
       id: "10",
-      tag: "marketplace",
+      tag: "Marketplace",
       title: "Deflyball",
       img: work10,
       imgSmall: workSmall10,
@@ -287,7 +306,38 @@ const AllData = () => {
       description:
         "Blocknotes is a tool for innovators who want to harness the power of Web3 in the music industry. Users can trade audio files, such as instrumentals and songs, as NFTs. Customizable profiles allow creators to showcase their talent.",
     },
+    // 11
+    {
+      id: "11",
+      tag: "Marketplace",
+      title: "Lighthouse",
+      img: work11,
+      imgSmall: workSmall11,
+      bg: "#FCF4FF",
+      client: "Lighthouse",
+      langages: "HTML CSS ReactJs",
+      link: "https://lighthouse-eight.vercel.app/",
+      linkText: "light-house.com",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet non diam tincidunt sed pretium aliquam. Lectus necmattis tellus tempus parturient. Sem pretium ipsum vitae.",
+    },
+    // 12
+    {
+      id: "12",
+      tag: "Staking",
+      title: "Lighthouse Staking",
+      img: work12,
+      imgSmall: workSmall12,
+      bg: "#FCF4FF",
+      client: "Lighthouse",
+      langages: "HTML CSS ReactJs",
+      link: "https://lighthouse-staking-five.vercel.app/",
+      linkText: "lighthouse-staking.com",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet non diam tincidunt sed pretium aliquam. Lectus necmattis tellus tempus parturient. Sem pretium ipsum vitae.",
+    },
   ];
+
   const [data, setData] = useState(workItems);
 
   // Elements for Blogs section
