@@ -1,5 +1,5 @@
 import React from "react";
-import cvFile from "../assets/images/cv.webp";
+import cvFile from "../assets/images/MuhammadTehsin.pdf";
 import {
   FaCalendarAlt,
   FaDribbble,

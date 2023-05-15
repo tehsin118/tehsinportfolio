@@ -1,7 +1,7 @@
 import React from "react";
 import userImage from "../../assets/images/about/about2.jpg";
 import downloadIcon from "../../assets/images/download.png";
-import cvFile from "../../assets/images/cv.webp";
+import cvFile from "../../assets/images/MuhammadTehsin.pdf";
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import PageTitle from "../../Share/PageTitle";
 
