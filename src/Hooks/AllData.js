@@ -146,34 +146,20 @@ const AllData = () => {
   // Elements for protfilo section
   const workItems = [
     {
-      id: "13",
+      id: "8",
       tag: "Web Design",
-      title: "Trekverse",
-      img: work13,
-      imgSmall: workSmall13,
-      bg: "#FFF0F0",
-      client: "Trekverse",
-      langages: "HTML CSS SASS, Reactjs",
-      link: "https://trekverse-bice.vercel.app/",
-      linkText: "trekverse.com",
-      description: "",
+      title: "SpotLight",
+      img: work8,
+      imgSmall: workSmall8,
+      bg: "#FFF0F8",
+      client: "SpotLight",
+      langages: "HTML, CSS, Javascript",
+      link: "https://catalyst-two.vercel.app/",
+      linkText: "spotlight.com",
+      description:
+        "The Catalyst showcases the exceptional art in the space. We meticulously hand-select only the finest artists across the physical and digital world.",
     },
     // 1
-    {
-      id: "1",
-      tag: "Marketplace",
-      title: "Supervet Marketplace",
-      img: work1,
-      imgSmall: workSmall1,
-      bg: "#FFF0F0",
-      client: "Supervet",
-      langages: "HTML CSS SASS, Reactjs",
-      link: "https://supervet-marketplace.vercel.app/",
-      linkText: "supervet-marketplace.com",
-      description:
-        "Super Vet NFT marketplace is a unique platform that allows creators and fans of the game to buy, sell, and trade non-fungible tokens (NFTs) that are based on the Super Vet game. These NFTs are digital assets that represent unique items, such as characters, items, and potions, in the game.",
-    },
-    // 2
     {
       id: "2",
       tag: "Web Design",
@@ -188,6 +174,22 @@ const AllData = () => {
       description:
         "Welcome to the world of the Super Vet where adventure, heroism, and animal rescue collide in a quest to save the innocent creatures of the world. Super Vet is a 3D action-adventure, AAA grade level animal rescue NFT GameFi along with the perks of the first-ever Read To Earn comic series.",
     },
+
+    // 2
+    {
+      id: "13",
+      tag: "Web Design",
+      title: "Trekverse (desktop version)",
+      img: work13,
+      imgSmall: workSmall13,
+      bg: "#FFF0F0",
+      client: "Trekverse",
+      langages: "HTML CSS SASS, Reactjs",
+      link: "https://trekverse-bice.vercel.app/",
+      linkText: "trekverse.com",
+      description: "",
+    },
+
     // 3
     {
       id: "3",
@@ -202,6 +204,21 @@ const AllData = () => {
       linkText: "multi-art.com",
       description:
         "Welcome to the multi-art NFT marketplace! This platform offers a seamless experience for buyers and sellers of NFTs. Artists can register and create NFTs to sell, while buyers can browse and bid on a diverse range of NFTs, from digital art to collectibles. The user-friendly interface makes it easy to upload artwork and set prices, while the secure and reliable platform ensures a smooth transaction process. Join the community of artists and collectors today and explore the exciting world of NFTs on this marketplace.",
+    },
+    //
+    {
+      id: "12",
+      tag: "Staking",
+      title: "Lighthouse Staking",
+      img: work12,
+      imgSmall: workSmall12,
+      bg: "#FCF4FF",
+      client: "Lighthouse",
+      langages: "HTML CSS ReactJs",
+      link: "https://lighthouse-staking-five.vercel.app/",
+      linkText: "lighthouse-staking.com",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet non diam tincidunt sed pretium aliquam. Lectus necmattis tellus tempus parturient. Sem pretium ipsum vitae.",
     },
     // 4
     {
@@ -263,18 +280,18 @@ const AllData = () => {
     },
     // 8
     {
-      id: "8",
-      tag: "Web Design",
-      title: "SpotLight",
-      img: work8,
-      imgSmall: workSmall8,
-      bg: "#FFF0F8",
-      client: "SpotLight",
-      langages: "HTML, CSS, Javascript",
-      link: "https://catalyst-two.vercel.app/",
-      linkText: "spotlight.com",
+      id: "1",
+      tag: "Marketplace",
+      title: "Supervet Marketplace",
+      img: work1,
+      imgSmall: workSmall1,
+      bg: "#FFF0F0",
+      client: "Supervet",
+      langages: "HTML CSS SASS, Reactjs",
+      link: "https://supervet-marketplace.vercel.app/",
+      linkText: "supervet-marketplace.com",
       description:
-        "The Catalyst showcases the exceptional art in the space. We meticulously hand-select only the finest artists across the physical and digital world.",
+        "Super Vet NFT marketplace is a unique platform that allows creators and fans of the game to buy, sell, and trade non-fungible tokens (NFTs) that are based on the Super Vet game. These NFTs are digital assets that represent unique items, such as characters, items, and potions, in the game.",
     },
     // 9
     {
@@ -322,20 +339,6 @@ const AllData = () => {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet non diam tincidunt sed pretium aliquam. Lectus necmattis tellus tempus parturient. Sem pretium ipsum vitae.",
     },
     // 12
-    {
-      id: "12",
-      tag: "Staking",
-      title: "Lighthouse Staking",
-      img: work12,
-      imgSmall: workSmall12,
-      bg: "#FCF4FF",
-      client: "Lighthouse",
-      langages: "HTML CSS ReactJs",
-      link: "https://lighthouse-staking-five.vercel.app/",
-      linkText: "lighthouse-staking.com",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet non diam tincidunt sed pretium aliquam. Lectus necmattis tellus tempus parturient. Sem pretium ipsum vitae.",
-    },
   ];
 
   const [data, setData] = useState(workItems);
